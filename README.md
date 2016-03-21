@@ -24,3 +24,10 @@ es5 compiled `dist/final.js` file.
 
   # Windows
   ./start.ps1
+
+# Test It
+
+Add the header `Authorization: my authorization method` to your request.
+Try omitting the header or changing the value.
+
+`[PUT] => http://localhost:3000/user`
