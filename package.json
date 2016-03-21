@@ -1,0 +1,24 @@
+{
+  "name": "demo-authorization-decorators",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Using Decorators for Authorization on a Node Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamchairs/demo-authorization-decorators.git"
+  },
+  "author": "Micah Williamson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamchairs/demo-authorization-decorators/issues"
+  },
+  "homepage": "https://github.com/iamchairs/demo-authorization-decorators#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "systemjs": "^0.19.24"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "buildOnSave": true,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "system",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "sourceMap": false,
+    "noLib": false,
+    "experimentalDecorators": true,
+    "out": "./dist/typescript.js"
+  },
+  "filesGlob": [
+    "typings/tsd.d.ts",
+    "src/**/*.ts"
+  ],
+  "files": [
+    "typings/tsd.d.ts",
+    "src/authorize.decorator.ts",
+    "src/authorize.service.ts",
+    "src/main.ts",
+    "src/user.model.ts",
+    "src/user.route.ts",
+    "src/user.service.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
