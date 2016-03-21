@@ -19,7 +19,9 @@ export class MyServer {
 
   public static handleRequest(fn: Function): (req: Request, res: Response) => void {
     return (req: Request, res: Response) => {
-      fn.apply(null, arguments);
+      fn.call(null, req, res);
     }
   }
 }
+
+export let Server = new MyServer();

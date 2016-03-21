@@ -8,7 +8,7 @@ export function Authorize() {
 
     let originalFunction = target[property];
 
-    return function(...args) {
+    return target[property] = function(...args) {
       let req: Request = args[0];
       let res: Response = args[1];
       let user = AuthorizeService.getRequestUser(req);
